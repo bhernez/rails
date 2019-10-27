@@ -933,6 +933,7 @@
   setTimeout(autostart, 1);
   exports.start = start;
   exports.DirectUpload = DirectUpload;
+  exports.FileChecksum = FileChecksum;
   Object.defineProperty(exports, "__esModule", {
     value: true
   });
