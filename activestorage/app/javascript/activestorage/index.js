@@ -1,6 +1,7 @@
 import { start } from "./ujs"
 import { DirectUpload } from "./direct_upload"
-export { start, DirectUpload }
+import { FileChecksum } from "./file_checksum"
+export { start, DirectUpload, FileChecksum }
 
 function autostart() {
   if (window.ActiveStorage) {
